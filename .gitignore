@@ -1,0 +1,48 @@
+# TELL GIT TO IGNORE STUFF
+# Doesn't work on anything already under version control.
+# https://git-scm.com/docs/gitignore
+
+# Ignore the following files and directories at any depth relative to the
+# directory this `.gitignore` file is currently located in.
+**/node_modules
+
+# Ignore the following files and directories in the directory this `.gitignore`
+# file is currently located in.
+.tmp
+package-lock.json
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.log
+*.orig
+*.swp
+*.zip
+*~
+
+# OS or Editor folders
+# OS
+# https://github.com/github/gitignore/blob/master/Global/Linux.gitignore
+# https://github.com/github/gitignore/blob/master/Global/macOS.gitignore
+# https://github.com/github/gitignore/blob/master/Global/Windows.gitignore
+#
+# Editor
+# https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore
+# https://github.com/github/gitignore/blob/master/Global/Espresso.gitignore
+# https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
+# https://github.com/github/gitignore/blob/master/Global/NetBeans.gitignore
+# https://github.com/github/gitignore/blob/master/Global/SublimeText.gitignore
+# https://github.com/github/gitignore/blob/master/Global/TextMate.gitignore
+**/._*
+**/.DS_Store
+**/*.DS_Store
+**/Thumbs.db
+.cache
+.idea
+.project
+.settings
+.tmproj
+*.esproj
+*.sublime-project
+*.sublime-workspace
+nbproject
