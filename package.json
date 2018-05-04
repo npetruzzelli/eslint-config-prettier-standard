@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-prettier-standard",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "An ESLint shareable config for projects using 'Prettier' and 'JavaScript Standard Style' as ESLint rules.",
   "main": "lib/prettier-standard.js",
   "repository": {
