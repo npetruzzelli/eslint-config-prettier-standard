@@ -56,7 +56,8 @@ If you are making a custom configuration that absolutely must extend a different
     "prettier-standard/lib/base",
     "foo",
     "bar",
-    "prettier"
+    "prettier",
+    "prettier/standard"
   ]
 }
 ```
