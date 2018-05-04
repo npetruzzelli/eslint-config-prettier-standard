@@ -4,6 +4,14 @@ An ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-co
 
 ## Installation
 
+### One Line Installation
+
+```
+npm install --save-dev eslint-config-prettier-standard eslint eslint-config-prettier eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard eslint-plugin-prettier prettier
+```
+
+### Line By Line Installation
+
 Install the peer dependencies:
 
 ```
@@ -56,7 +64,8 @@ If you are making a custom configuration that absolutely must extend a different
     "prettier-standard/lib/base",
     "foo",
     "bar",
-    "prettier"
+    "prettier",
+    "prettier/standard"
   ]
 }
 ```
