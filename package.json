@@ -10,12 +10,15 @@
   "keywords": [
     "eslint",
     "eslintconfig",
+    "eslint-config",
     "eslintplugin",
     "eslint-plugin",
     "JavaScript Standard Style",
     "jsstandard",
     "lint",
     "prettier",
+    "prettierconfig",
+    "prettier-config",
     "standard",
     "standard style"
   ],
