@@ -31,7 +31,6 @@
     "prettier-config-standard": ">=1.0.0"
   },
   "devDependencies": {
-    "lodash.merge": "^4.6.0",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^5.0.0",
     "eslint-config-standard": "^12.0.0",
