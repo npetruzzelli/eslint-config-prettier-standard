@@ -180,10 +180,7 @@ configurations to create a complete configuration.
 
 ```jsonc
 // .prettierrc.json
-"prettier-standard/prettierrc"
-
-// EFFECTIVELY THE SAME AS:
-// "prettier-config-standard"
+"prettier-config-standard"
 ```
 
 ### Why Configure Prettier In A Seperate File?
@@ -201,6 +198,14 @@ configurations to create a complete configuration.
 
 These are provided as a convenience to aid with extending configurations.
 
+-   **eslint-config-prettier-standard/prettierrc**: The Prettier configuration
+    as an object. Since this won't be used in the context of ESLint's "extends",
+    the complete module name must be used. This partial configuration is 
+    provided for anyone who absolutely must be certain that they are using the 
+    same version of the Prettier config that this ESLint config can resolve and 
+    consume.  
+      
+    _In most cases, importing `prettier-config-standard` directly is recommended._
 -   **prettier-standard/base**: Extends the JavaScript Standard Style shareable 
     config and includes the Prettier plugin.
 -   **prettier-standard/end**: This kicks of the last of the shareable configs
@@ -213,7 +218,6 @@ These are provided as a convenience to aid with extending configurations.
     `prettier/prettier` ESLint rule.
 -   **prettier-standard/prettier-file-base**: Extends `prettier-standard/base`. 
     Sets the `prettier/prettier` rule to "error".
--   **prettier-standard/prettierrc**: The Prettier configuration as an object.
 
 
 ## Extending The Configuration
