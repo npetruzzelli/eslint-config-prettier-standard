@@ -12,7 +12,7 @@ These instructions assume that you've already installed ESLint
 ### Two Line Installation
 
 ```
-npm install --save-dev eslint-config-prettier eslint-config-prettier-standard eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-standard prettier-config-standard
+npm install --save-dev eslint-config-prettier eslint-config-prettier-standard eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise prettier-config-standard
 npm install --save-dev --save-exact prettier
 ```
 
@@ -21,7 +21,7 @@ npm install --save-dev --save-exact prettier
 Install the peer dependencies:
 
 ```
-npm install --save-dev eslint-config-standard eslint-plugin-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-node
+npm install --save-dev eslint-config-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-node
 npm install --save-dev eslint-plugin-prettier eslint-config-prettier prettier-config-standard
 npm install --save-dev --save-exact prettier
 ```
@@ -48,7 +48,6 @@ Some of which have their own peer dependencies.
 | **eslint-plugin-import**    | • eslint-config-standard |
 | **eslint-plugin-node**      | • eslint-config-standard |
 | **eslint-plugin-promise**   | • eslint-config-standard |
-| **eslint-plugin-standard**  | • eslint-config-standard |
 | **prettier**                | • eslint-plugin-prettier |
 
 </details>
